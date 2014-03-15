@@ -13,4 +13,5 @@ Friend-system<br>
 
 
 Övriga funktioner:<br>
+
 Coola funktioner för chat( dela filer, videolänkar som youtube & streams?, chat-ikoner & ljud)<br>
