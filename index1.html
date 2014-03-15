@@ -1,0 +1,43 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script>
+    navigator.getMedia = (navigator.getUserMedia ||
+                           navigator.webkitGetUserMedia ||
+                           navigator.mozGetUserMedia ||
+                           navigator.msGetUserMedia);
+
+    navigator.getMedia(
+
+       // constraints
+       {
+           video: false,
+           audio: true
+       },
+
+       // successCallback
+       function (localMediaStream) {
+           /*var video = document.querySelector('video');
+           video.src = window.URL.createObjectURL(localMediaStream);
+           video.onloadedmetadata = function (e) {
+               // Do something with the video here.
+           };
+           */
+           document.write("works");
+       },
+
+       // errorCallback
+       function (err) {
+           console.log("The following error occured: " + err);
+           document.write("fail");
+       }
+
+    );
+</script>
+</body>
+</html>
