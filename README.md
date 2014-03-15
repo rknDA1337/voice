@@ -12,5 +12,5 @@ Chat - kunna chatta i ett rum och chatta med vänner<br>
 Friend-system<br>
 
 
-Övriga funktioner:
-Coola funktioner för chat( dela filer, videolänkar som youtube & streams?, chat-ikoner & ljud)
+Övriga funktioner:<br>
+Coola funktioner för chat( dela filer, videolänkar som youtube & streams?, chat-ikoner & ljud)<br>
