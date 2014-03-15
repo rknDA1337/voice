@@ -1,0 +1,67 @@
+/* 
+Responsive grid ifrån 
+http://jordanlev.github.io/grid/ 
+*/
+@-ms-viewport {width: device-width;}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+#container {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 90%;
+	position:relative;
+}
+.column {
+	float: left;
+	margin-left: 5%;
+}
+.column:first-child {
+	margin-left: 0;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.column.full {
+	width: 100%;
+}
+.column.two-thirds {
+	width: 65%;
+}
+.column.half {
+	width: 47.5%;
+}
+.column.one-third {
+	width: 30%;
+}
+.column.one-fourth {
+	width: 21.25%;
+}
+
+.centerText{
+	text-align:center;
+}
+
+#frontpage input[type=submit]{
+		width:80px;
+		margin-right:75px;
+}
+
+@media screen and (max-width: 640px) {
+  .column.full,
+  .column.two-thirds,
+  .column.half,
+  .column.one-third,
+  .column.one-fourth {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+}
