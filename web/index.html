@@ -31,11 +31,13 @@
   </div>
   
   <div class="row">
-    <div class="column two-thirds">
+    <div id="chat">
+    	<textarea disabled id="chatArea" rows="10" cols="70"></textarea>
+        <input id="msgSend" type="submit" value"send">
+        <input id="chatMsg" type="text" placeholder="Enter Chat Message">
+        <div id="users"></div>
     </div>
-    <div class="column one-third">
-    </div>
-  </div>
+  	</div>
   
   <div class="row">
     <div class="column half"></div>
@@ -55,7 +57,11 @@
     <div class="column one-fourth"></div>
   </div>
   
+  <script src="http://chippi.se:1337/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
   <script src="js/test.js"></script> 
+  <script src="js/node.js"></script> 
+  <script src="js/jQuery.js"></script>
 </div>
 </body>
 </html>

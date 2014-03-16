@@ -54,6 +54,14 @@ body{
 		margin-right:75px;
 }
 
+#video{
+	position:absolute;
+	width:200px;	
+	height:200px;
+	background-color:#3CF;	
+}
+
+
 @media screen and (max-width: 640px) {
   .column.full,
   .column.two-thirds,
