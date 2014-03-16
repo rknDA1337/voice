@@ -16,4 +16,4 @@ Ev. "friend-feed" för att se vad vänner gör/vart de snackar<br/>
 
 Coola funktioner för chat( dela filer, videolänkar som youtube & streams?, chat-ikoner & ljud )<br>
 Video - Kunna göra videosamtal<br>
-volymkontroll
+Volymfunktioner ( Mute, höja/sänka )<br>
