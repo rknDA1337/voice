@@ -20,6 +20,19 @@ Funktioner för eget konto:<br/>
 <li>...</li>
 </ul>
 
+Permanenta kanalers funktioner:
+
+<ul>
+<li>Agerar typ som en server gör i teamspeak/mumble just nu</li>
+<li>Kan vara lösenordsskyddade</li>
+<li>Har ett max antal användare pga bandbredd osv. (Minst 30 dock)</li>
+<li>Kan ha sub-kanaler</li>
+<li>Sub-kanaler kan ha lösenord också</li>
+<li>Har flera roller: Ägare, admin, moderator, användare, anonym användare</li>
+<li>Anonyma användare kan vara otillåtna om man vill</li>
+<li>...</li>
+</ul>
+
 <b>Övriga funktioner:<br></b>
 
 Coola funktioner för chat( dela filer, videolänkar som youtube & streams?, chat-ikoner & ljud )<br>
