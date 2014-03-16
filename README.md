@@ -10,7 +10,7 @@ Audio - Kunna prata med varandra<br>
 Chat - kunna chatta i ett rum och chatta med vänner<br>
 Friend-system<br>
 Ev. "friend-feed" för att se vad vänner gör/vart de snackar<br/>
-Mute sounds/ute microphone<br/><br/>
+Mute sounds/mute mic (på mute sounds måste ljud sluta skickas till personen för att spara bandbredd)<br/><br/>
 Funktioner för eget konto:<br/>
 <ul>
 <li>Avatar, thumbnail kommer synas i chat när man skriver</li>
