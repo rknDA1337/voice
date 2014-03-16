@@ -11,6 +11,7 @@ function connect(){
 	socket.on('newChatMsg', function(data){
 		console.log("from server " + data.msg);
 		$('#chatArea').append(data.user + ": " + data.msg + "\n");
+		$('#chatArea').animate({ scrollTop: $('#chatArea')[0].scrollHeight}, 1000);
 	});
 	
 };
