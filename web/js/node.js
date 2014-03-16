@@ -5,7 +5,7 @@ function connect(){
 	socket = io.connect('http://chippi.se:1337');
 	
 	socket.on('users', function(data){	
-	$('#users').val("Users Connected: " + data.users);
+	$('#users').text("Users Connected: " + data.users);
 });
 
 	socket.on('newChatMsg', function(data){
