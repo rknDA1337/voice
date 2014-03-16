@@ -18,6 +18,7 @@ Funktioner för eget konto:<br/>
 <li>Vänner-lista</li>
 <li>Kunna skapa permanenta kanaler, max X st per konto?</li>
 <li>Permanenta kanaler kan vara osynliga/private/hidden, men de som inte är det kan synas på sin profil om man är vänner?</li>
+<li>Se vilka kanaler+subkanaler som vännerna är i</li>
 <li>...</li>
 </ul>
 
